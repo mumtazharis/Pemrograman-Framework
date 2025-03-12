@@ -6,4 +6,4 @@
 ![alt text](<screenshot/Screenshot 2025-03-12 191121.png>)
 
 # Tugas
-<video controls src="screenshot/20250312-2015-12.8871499.mp4" title="Tugas"></video>
+![alt text](<screenshot/Screen Recording 2025-03-13 031544.gif>)
