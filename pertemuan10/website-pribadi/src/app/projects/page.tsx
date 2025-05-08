@@ -2,7 +2,7 @@ import type {Metadata} from 'next';
 import Image, {StaticImageData} from 'next/image';
 import Image1 from '../../../public/images/image.png';
 import Image2 from '../../../public/images/image copy 3.png';
-
+import { defaultMetadata } from '@/utils/metadata';
 type ProjectItemProps = {
     name: string;
     url: string;
@@ -32,8 +32,8 @@ export const metadata: Metadata = {
   title: 'Proyek',
   description: 'Halaman proyek.',
   openGraph: {
-    title: 'Proyek',
-    description: 'Halaman proyek',
+    images: defaultMetadata.openGraph.images,
+    url: defaultMetadata.openGraph.url,
   },
 };
 
